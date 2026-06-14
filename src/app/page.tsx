@@ -1,9 +1,10 @@
 import HeroCarousel from "./components/hero-carousel";
 import ProductCard from "./components/product-card";
+import { Produto } from "@/app/types/produto"
 import { getProdutos } from "@/lib/api";
 
 export default async function Home() {
-  let produtos = [];
+  let produtos: Produto[] = [];
   try {
     produtos = await getProdutos();
   } catch {
