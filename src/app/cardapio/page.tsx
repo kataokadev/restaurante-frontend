@@ -1,8 +1,10 @@
 import MenuProductCard from "../components/featured-product-card";
 import { getProdutos } from "@/lib/api";
+import { Produto } from "@/app/types/produto"
+
 
 export default async function CardapioPage() {
-  let produtos = [];
+  let produtos: Produto[] = [];
   try {
     produtos = await getProdutos();
   } catch {
