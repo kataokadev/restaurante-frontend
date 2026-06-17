@@ -21,7 +21,7 @@ export default function Header() {
           height={90}
           alt="Logo"
         />
-        <h1 className="xl:absolute xl:left-1/2 xl:-translate-x-1/2 text-7xl">
+        <h1 className=" text-4xl xl:absolute xl:left-1/2 xl:-translate-x-1/2 lg:text-7xl">
           Prime Grill
         </h1>
         <nav className="hidden lg:flex font-bold gap-5">
