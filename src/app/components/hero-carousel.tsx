@@ -14,8 +14,8 @@ export default function HeroCarousel() {
       modules={[Autoplay, Navigation, Pagination]}
       pagination={{ clickable: true }}
       autoplay={{
-        delay: 5000,
-        disableOnInteraction: true,
+        delay: 4000,
+        disableOnInteraction: false,
       }}
       loop={true}
       style={{
