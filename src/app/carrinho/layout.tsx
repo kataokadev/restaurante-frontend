@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Dev's Restaurant - Cardápio",
-  description: "Cardápio da empresa",
+  title: "Prime Grill - Carrinho",
+  description: "Carrinho da empresa",
 };
 
 export default function CarrinhoLayout({

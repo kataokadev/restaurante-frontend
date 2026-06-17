@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Dev's Restaurant - Cardápio",
+  title: "Prime Grill - Cardápio",
   description: "Cardápio da empresa",
 };
 

@@ -5,7 +5,7 @@ import Header from "./components/main-header";
 import { CartProvider } from "@/context/CartContext";
 
 export const metadata: Metadata = {
-  title: "Dev's Restaurant",
+  title: "Prime Grill",
   description: "Sistema de Restaurante",
 };
 
